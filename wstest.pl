@@ -3,7 +3,6 @@ use strict;
 use warnings;
 
 use Devel::Malikai;
-use Data::Dumper;
 use Finance::Exek::WebSocket;
 
 $0 = "websocket";
@@ -33,9 +32,9 @@ sub main {
 	};
 
 	my $params = {
-		username => 'jihde',
+		username => 'username',
 		password => 'password',
-		hostname => 'proxy1.dev.exek.net',
+		hostname => 'ws.exek.net',
 		port			=> 9000,
 		callbacks	=> $callbacks
 	};
